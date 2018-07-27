@@ -1,0 +1,14 @@
+package com.ftdc.rmi;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan;
+
+@SpringBootApplication
+@ServletComponentScan
+public class RmiApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(RmiApplication.class, args);
+    }
+}
